@@ -1,0 +1,35 @@
+.set-button{
+    margin-top: 30px;
+}
+
+.b1, .b2{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+.b1{
+    background-color: #fd7792;
+    color: white;
+}
+.b1:hover{
+    background-color: white;
+    color: #fd7792;
+    border: 1px solid #fd7792;
+}
+
+
+.b2{
+    background-color: white;
+    color: gray;
+}
+
+.b2:hover{
+    background-color: #fd7792;
+    color: white;
+    border: 1px solid white;
+}

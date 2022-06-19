@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+.contact{
+    background-color: #fc456a;
+    font-size: 13px;
+    color: white;
+    padding: 5px;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.contact>span{
+    margin-left: 200px;
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    background-color: #f8f9fa;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    right: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.logo{
+    position: absolute;
+    left: -350px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo>a{
+    color: #fc456a;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.logo>a>span{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.navbar-items{
+    display: flex;
+}
+.nav-item{
+    width: 130px;  
+    transition: 0.9s;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-item>a:hover{
+   color: #fc456a;
+}
+
+.nav-item>a{
+    color: gray;
+    text-decoration: none;  
+}
+
+
+/*
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
+
+@media only screen and (max-width: 1200px) {
+    .logo{
+        left: -250px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo{
+        left: -180px;
+    }
+    .nav-item{
+        width: 100px;  
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        display: none; 
+    }
+    .nav-item{
+        width: 70px;  
+    }
+    .navbar{
+        right: -20px;
+    }
+    .logo-mobile{
+        position: absolute;
+        left: -20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .logo-mobile>a{
+        color: #fc456a;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    .logo-mobile>a>span{
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .contact{
+      margin-left: -105px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-mobile{
+        display: none; 
+    }
+}
+

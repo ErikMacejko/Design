@@ -1,0 +1,43 @@
+.hills-bg {
+    background: #293462;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background: #FFF1C1;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hill-one {
+    width: 120px;
+    height: 100px;
+    background: #FE5F55;
+    transform: rotate(45deg);
+    position: relative;
+    top: 130px;
+    left: -20px;
+}
+
+.hill-two {
+    width: 115px;
+    height: 265px;
+    background: #FE5F55;
+    transform: rotate(45deg);
+    position: relative;
+    top: 60px;
+    left: -65px;
+}
+
+.sun {
+    width: 60px;
+    height: 40px;
+    background: #ffdf00;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}

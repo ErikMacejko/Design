@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+/*
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.parallax{
+    background:  url("../img/bg4.jpg");
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax>div{
+    background-color: rgb(253, 119, 146, 0.35);
+    height: 350px;
+    width: 100%;
+}
+
+.parallax>div>div, .parallax2>div>div, .parallax3>div>div, .parallax4>div>div{
+    padding-top: 110px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 65px;
+}
+
+.parallax2{
+    background:  url("../img/bg5.jpg");
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background:  url("../img/bg6.jpg");
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4{
+    background:  url("../img/bg8.jpg");
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2>div, .parallax3>div,.parallax4>div{
+    height: 350px;
+    width: 100%;
+    background-color: rgba(19, 19, 19, 0.35);
+}
+
+.latest-news{
+    height: 350px;
+    width: 100%;
+    background-color: #f3f4f7;
+}
+
+.center-btn{
+    margin: 0 auto;
+    margin-top: -80px;
+}
+
+.overlay-clients{
+    width: 100%;
+    background-color: #f3f4f7;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feedback{
+    width: 33%;
+    height: 251px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 30px 33px -41px;
+}
+
+.feedback:not(:first-child):not(:last-child) {
+    margin-left: 20px;
+    margin-right: 20px;     
+}
+
+.photo{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.client1{
+    background: url("../img/people1.jpg");
+    background-size: 110px;
+}
+.client2{
+    background: url("../img/people2.jpg");
+    background-size: 120px;
+}
+.client3{
+    background: url("../img/people3.jpg");
+    background-size: 100px;
+}
+
+.plain-text{
+    max-width: 60%;
+    margin-left: 120px;
+    margin-top: -75px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.client-name{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.news-block{
+    background-color: #f3f4f7;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog{
+    width: 410px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 60px 5px #afafaf;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.news-img{
+    height: 300px;
+    width: 100%;
+}
+
+.no1{
+    background: url("../img/blog1.jpg");
+    background-size: 550px;
+    background-position: 50%;
+}
+
+.no2{
+    background: url("../img/blog2.jpg");
+    background-size: 500px;
+    background-position: 50%;
+}
+
+.no3{
+    background: url("../img/blog3.jpg");
+    background-size: 420px;
+    background-position: 50%;
+}
+
+.no4{
+    background: url("../img/blog4.jpg");
+    background-size: 470px;
+    background-position: 50%;
+}
+
+.no5{
+    background: url("../img/blog5.jpg");
+    background-size: 480px;
+    background-position: 50%;
+}
+
+.no6{
+    background: url("../img/blog6.jpg");
+    background-size: 430px;
+    background-position: 50%;
+}
+
+.news-block-text{
+   margin-top: 30px;
+   font-size: 25px;
+   transition: 0.5s;
+}
+
+.news-block-text:hover{
+    color: #fd7792;
+ }
+
+.news-block-date{
+    margin-top: 15px;
+    color: #fd7792;
+    transition: 0.5s;
+}
+
+.news-block-date:hover{
+   color: gray;
+}
+
+.news-block-date2{
+    margin-top: 15px;
+    color: gray;
+    font-size: 18px;
+}
+
+.about{
+    width: 100%;
+    background-color: #f3f4f7;
+    height: auto;
+}
+
+.offer{ 
+    width: 100%;
+    height: 80vh;
+    margin-left: 350px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.offer>h1{
+    font-size: 60px;
+}
+.offer>p{
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.offer-blocks{
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.left-block{
+    width: 350px;
+    height: auto;
+    display: block;
+}
+
+.block-flex{
+    display: flex;
+}
+
+.right-block{
+    width: 350px;
+    height: auto;
+}
+
+.block-flex>div{
+    padding: 10px;
+}
+
+.block-flex-text{
+    font-size: 19px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+}
+
+.block-flex-text>h2{
+    font-size: 26px;
+    max-width: 80%;
+
+}
+
+.offer-img{
+    background-color: #fd7792;
+}
+
+/*
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+*/
+
+@media only screen and (max-width: 1200px) {
+    .clients{
+        display: block;
+        padding-top: 5px;
+    }
+
+    .feedback{
+        margin: 0 auto;
+        padding-top: 40px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .feedback:not(:first-child):not(:last-child) {
+        margin: 0 auto; 
+        margin-top: 20px;   
+    }
+
+    .header-title{
+        padding-bottom: 50px;
+    }
+
+    .blog{
+        height: 600px;
+    }
+
+    .offer{
+        max-width: 100%;
+        margin-left: 200px;
+    }
+    .offer-blocks{
+        max-width: 80%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax>div>div{
+        font-size: 40px;
+    }
+    .about{
+        display: block;
+    }
+    .offer{
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .offer-blocks{
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .block-flex-text{
+        max-width: 80%;     
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .informations{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .box-center{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .info-blocks{
+        width: 100%; 
+        height: 400px;
+        margin: 0 auto;
+        display: block;
+        box-shadow: none;
+        margin-top: 50px;
+    }
+
+    .img-block{
+        width: 80%;   
+        height: 250px;
+    }
+
+    .info-blocks:not(:first-child):not(:last-child) {
+        margin-left: 0px;
+        margin-right: 0px;     
+    }
+    .info-blocks {
+        padding-bottom: 60px;    
+    }
+
+    .news-block{
+        display: block;
+        padding-top: 60px;
+        height: auto;
+    }
+    .blog{
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .blog:nth-last-child(1){
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header-title{
+        padding-bottom: 200px;
+        width: 100%;
+    }
+    .header-title>div{    
+        width: 50%;      
+    }
+    .header-title>div>h1{    
+        font-size: 35px;       
+    }
+    .clients{
+        width: 90%;
+    }
+    .feedback{
+        width: 100%;
+    }
+
+    .blog{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .blog:not(:first-child):not(:last-child) {
+        margin-top: 20px;   
+        margin-bottom: 20px;  
+    }
+
+    .offer-blocks{
+        margin-left: -20px;
+    }
+
+}

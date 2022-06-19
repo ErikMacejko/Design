@@ -1,0 +1,36 @@
+.cube-bg {
+    background: #F3AC3C;
+}
+
+.big {
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    border: 30px solid #998235;
+}
+
+.small {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #1A4341;
+    top: 37px;
+    left: 35px;
+}
+
+.box-1 {
+    position: relative;
+    padding: 15px 18px;
+    background: #F3AC3C;
+    right: 67px;
+    bottom: 10px
+}
+
+.box-2 {
+    position: relative;
+    width: 30px;
+    height: 33px;
+    background: #F3AC3C;
+    left: 35px;
+    bottom: 123px;
+}

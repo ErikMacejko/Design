@@ -1,0 +1,49 @@
+.piano-bg {
+    background: #998235;
+}
+
+.piano {
+    width: 180px;
+    height: 100px;
+    background: #191919;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+}
+
+.key-white {
+    position: relative;
+    width: 20px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    top: 25px;
+    margin-left: 5px;
+}
+
+.key-black {
+    position: absolute;
+    width: 15px;
+    height: 60px;
+    background: #191919;
+}
+
+.no1 {
+    left: 20px;
+}
+
+.no2 {
+    left: 45px;
+}
+
+.no3 {
+    left: 95px;
+}
+
+.no4 {
+    right: 45px;
+}
+
+.no5 {
+    right: 20px;
+}
